@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Yash Patil</h1>
 <h3 align="center">HERE IS MY ALL WEBSITES</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=patilyashh" alt="patilyashh" /></a> </p>
 
 - 🔭 I’m currently working on [Websites for my portfolio](patilyash.vecel.app)
 
