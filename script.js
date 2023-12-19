@@ -10,5 +10,5 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
   
