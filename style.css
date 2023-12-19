@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.intro {
+  width: 100%;
+  padding: 10px; 
+  text-align: center;
+background-color: black;
+  padding-bottom:50%;
+}
+
+.yash {
+  font-size: 20vw; 
+  padding-top: 1vh;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px 5px gray; 
+}
+
+.poby {
+  padding-top: 2vh;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px black;
+
+}
+
+.introo {
+  margin: 5vh 0; 
+  height: auto; 
+  padding: 20px; 
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #DFE0DC;
+background: linear-gradient(135deg, #ffcccc, #cc99ff, #99ccff, #ffff99);
+  text-decoration:none;
+  text-shadow: 2px 2px 5px black;
+  
+  ;
+  
+}
+
+.buttonss {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+}
+
+.port, .prof {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #DFE0DC;
+font-weight:bolder;
+  color: white;
+  height: auto;
+  width: 300px;
+  background: linear-gradient(135deg, #ffcccc, #cc99ff, #99ccff, #ffff99); 
+  text-shadow: 2px 2px 5px black;
+
+}
+
+.social {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.thankyou {
+  font-size: 4vw; 
+  padding: 20px;
+  border-radius: 20px;
+  margin: 15px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .yash {
+    font-size: 8vw; 
+  }
+
+  .introo {
+    padding: 15px; 
+  }
+
+  .thankyou {
+    font-size: 6vw; 
+  }
+}
+
+.thankyou {
+  font-size: 4vw; 
+  padding: 20px;
+  border-radius: 20px;
+  margin: 15px;
+  height: auto;
+  background: linear-gradient(135deg, #ffcccc, #cc99ff, #99ccff, #ffff99); 
+  box-shadow: 2px 2px 5px #DFE0DC;
+  text-shadow: 2px 2px 5px black;
+
+
+}
+
+.social {
+  background-color:white;
+  height :50px;
+  margin:10px;
+  border-radius: 20px;
+  text-align:center;
+  
+}
+img {
+  padding : 1.5vh;
+  margin-top:-1px;
+  text-shadow: 2px 2px 5px black;
+  padding-top:5px;
+}
