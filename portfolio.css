@@ -5,13 +5,12 @@
       background: linear-gradient(45deg, black, #222);
     }
 
-    h1 {
+    h2 {
       text-align: center;
       color: white;
-      padding: 20px;
-      background-color: black;
-      margin: 0;
-      
+      padding: 1vw;
+      background-color: rgba(0, 0, 0, 0.4)
+
     }
 
     .portfolio-container {
@@ -22,11 +21,10 @@
 
     .portfolio-item {
       position: relative;
-      width: 800px;
-      height: 600px;
+      width: 400px;
+      height: 450px;
       margin: 20px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 6px 4px 9px white; 
       border-radius: 8px;
       transition: transform 0.5s ease;
     }

@@ -86,6 +86,26 @@
       width:100%
     }
   </style>
+<script>
+           function sharePage() {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Website 1 Details',
+          text: 'Portfolio By YASH',
+          url: window.location.href
+        })
+        .then(() => console.log('Shared successfully'))
+        .catch((error) => console.error('Error sharing:', error));
+      } else {
+        console.log('Web Share API not supported.');
+        // Fallback behavior for browsers that do not support Web Share API
+        alert('You can manually share the page by copying the URL from the address bar.');
+      }
+  }
+</script>
+
+
+  
 </head>
 <body>
 
@@ -103,7 +123,7 @@
   <!-- Footer Buttons -->
   <footer>
     <a href="#" class="button">Like</a>
-    <a href="#" class="button">Share</a>
+    <a href="#" class="button" onclick="sharePage()">Share</a>
     <a href=" https://github.com/PATILYASHH/Lovebeads " class="button github-button">GitHub Repository</a>
     <a href="https://lovebeads.vercel.app"    class="button github-button"  >Live Website</a>
   </footer>

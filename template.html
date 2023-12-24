@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website 1 - Details</title>
+  <title> TEMPLETE</title>
   <style>
-    body {
+     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
@@ -17,17 +17,13 @@
       background: #2c3e50;
       color: #fff;
       text-align: center;
-      padding: 20px 0;
+      border-bottom: 2px solid #ecf0f1;
       position: relative;
-      overflow: hidden;
     }
 
     header img {
       max-width: 100%;
       height: auto;
-      border-radius: 8px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-      animation: fadeIn 1s ease-out;
     }
 
     main {
@@ -37,20 +33,21 @@
       background: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
-      animation: fadeIn 1s ease-out;
+      animation: fadeIn 0.5s ease-out;
     }
 
     h1 {
-      color: #2c3e50;
+      color: black;
       margin-bottom: 20px;
       text-align: center;
       font-size: 36px;
-      font-weight: bold;
+      font-weight: bolder;
     }
 
     p {
       line-height: 1.6;
       color: #333;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
     /* Add a subtle fade-in animation */
@@ -79,81 +76,23 @@
       color: #fff;
       background-color: #3498db;
       border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
-
-    .button:hover {
-      background-color: #2980b9;
     }
 
     .github-button {
-      background-color: #27ae60;
-      margin-top: 10px;
-      transition: background-color 0.3s ease;
+      background-color: #2c3e50;
     }
-
-    .github-button:hover {
-      background-color: #218c53;
-    }
-
-    .live-website-button {
-      margin-top: 10px;
-    }
-
-    /* Sticky "Go Live" Button */
-    .go-live-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 999;
-    }
-
-    /* Right Swipe Section */
-    .right-swipe-section {
-      position: fixed;
-      top: 50%;
-      right: 0;
-      transform: translateY(-50%);
-      background: rgba(255, 255, 255, 0.8);
-      padding: 20px;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-      box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease;
-      cursor: pointer;
-    }
-
-    .right-swipe-section:hover {
-      transform: translateY(-50%) translateX(-100%);
-    }
-
-    .additional-image {
-      width: 100%;
-      height: auto;
-      margin-bottom: 10px;
+    .imgco {
+      object-fit: cover;
+      height:100%
+      width:100%
     }
   </style>
-
-  <script>
-    let currentImageIndex = 0;
-    const additionalImages = [
-      'img1.png',
-      'img1.png',
-      // Add more additional images as needed
-    ];
-
-    function rightSwipe() {
-      currentImageIndex = (currentImageIndex + 1) % additionalImages.length;
-      const imageSrc = additionalImages[currentImageIndex];
-      const imgElement = document.getElementById('additionalImage');
-      imgElement.src = imageSrc;
-    }
-
-    function sharePage() {
+<script>
+           function sharePage() {
       if (navigator.share) {
         navigator.share({
-          title: 'Website 1 Details',
-          text: 'Check out the detailed information about Website 1.',
+          title: 'Portfolio website ',
+          text: 'Portfolio By YASH',
           url: window.location.href
         })
         .then(() => console.log('Shared successfully'))
@@ -163,30 +102,51 @@
         // Fallback behavior for browsers that do not support Web Share API
         alert('You can manually share the page by copying the URL from the address bar.');
       }
-    }
-  </script>
+  }
+</script>
+
+
+  
 </head>
 <body>
 
   <header>
-    <img src="img1.jpg" alt="Portfolio Image">
+    <img src="[#### Add image url #####]" alt="Portfolio Image" class="imgco">
+    <h1>[##### Title of the website ####] </h1>
   </header>
 
   <main>
-    <p>This is the detailed information about Website 1. You can provide a more in-depth description of the project, its features, technologies used, and any other relevant details.</p>
-    <p>Feel free to customize this page with your content.</p>
+    <p> [##### Discrition of the website ####] </p>
+
+    <p> [####  massege ####]  </p>
   </main>
 
   <!-- Footer Buttons -->
   <footer>
     <a href="#" class="button">Like</a>
     <a href="#" class="button" onclick="sharePage()">Share</a>
-    <a href="https://github.com/PATILYASHH/Lovebeads" class="button github-button">GitHub Repository</a>
-  <!--  <a href="https://lovebeads.vercel.app" class="button live-website-button">Live Website</a>-->
+    <a href=" [GitHub repository link]  " class="button github-button">[#### GitHub Repository ####]</a>
+
+    
+    <a href="[#### Add Website Link ####]"    class="button github-button"  >Live Website</a>
   </footer>
 
-  <!-- Sticky "Go Live" Button -->
-  <a href="https://lovebeads.vercel.app" class="button go-live-button">Go Live</a>
+<!------------------------   SHOWCASE TEMPLATE ------------------------------>
 
-  <!-- Right Swipe Section for Additional Images -->
-  <div class="right-swipe-section"oneclick="rightSwipe()">
+
+  <a href="[#### html url ###]" class="portfolio-item">
+    <img src="[#### Image url ####]" alt="Portfolio Item 3">
+    <div class="overlay">
+      <h2> Title of the website  </h2>
+    </div>
+  </a>
+
+
+  
+</body>
+</html>
+
+
+
+
+
