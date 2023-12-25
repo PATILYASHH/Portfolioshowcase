@@ -69,3 +69,10 @@
       text-decoration: none;
       color: inherit;
     }
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 1vw;
+  background-color: gray;
+}

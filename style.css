@@ -22,8 +22,9 @@ background-color: black;
   font-size: 20vw; 
   padding-top: 1vh;
   text-decoration: underline;
-  color: white;
   text-shadow: 2px 2px 5px gray; 
+  color: white;
+
 }
 
 .poby {
