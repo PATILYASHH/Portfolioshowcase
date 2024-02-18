@@ -1,125 +1,140 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #4e89ae, #43658b);
+    color: #ffffff;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: white;
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.intro {
-  width: 100%;
-  padding: 10px; 
-  text-align: center;
-background-color: black;
-  padding-bottom:50%;
+header {
+    background: linear-gradient(to right, #333333, #4d4d4d);
+    color: #ffffff;
+    padding: 10px 0;
 }
 
-.yash {
-  font-size: 20vw; 
-  padding-top: 1vh;
-  text-decoration: underline;
-  text-shadow: 2px 2px 5px gray; 
-  color: white;
-
+header h1 {
+    margin: 0;
 }
 
-.poby {
-  padding-top: 2vh;
-  color: whitesmoke;
-  text-shadow: 2px 2px 5px black;
-
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.introo {
-  margin: 5vh 0; 
-  height: auto; 
-  padding: 20px; 
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px #DFE0DC;
-background: linear-gradient(135deg, #ffcccc, #cc99ff, #99ccff, #ffff99);
-  text-decoration:none;
-  text-shadow: 2px 2px 5px black;
-  
-  ;
-  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.buttonss {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; 
-  margin-top: 20px; 
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.port, .prof {
-  padding: 10px 20px;
-  margin: 10px;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px #DFE0DC;
-font-weight:bolder;
-  color: white;
-  height: auto;
-  width: 300px;
-  background: linear-gradient(135deg, #ffcccc, #cc99ff, #99ccff, #ffff99); 
-  text-shadow: 2px 2px 5px black;
-
+section {
+    padding: 50px 0;
+    background-color: #2c3e50;
 }
 
-.social {
-  margin-top: 20px;
-  padding: 10px;
+section h2 {
+    margin-top: 0;
+    color: #ffffff;
 }
 
-.thankyou {
-  font-size: 4vw; 
-  padding: 20px;
-  border-radius: 20px;
-  margin: 15px;
-  height: auto;
+.about-content {
+    text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-  .yash {
-    font-size: 8vw; 
-  }
-
-  .introo {
-    padding: 15px; 
-  }
-
-  .thankyou {
-    font-size: 6vw; 
-  }
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
 }
 
-.thankyou {
-  font-size: 4vw; 
-  padding: 20px;
-  border-radius: 20px;
-  margin: 15px;
-  height: auto;
-  background: linear-gradient(135deg, #ffcccc, #cc99ff, #99ccff, #ffff99); 
-  box-shadow: 2px 2px 5px #DFE0DC;
-  text-shadow: 2px 2px 5px black;
-
-
+about-content p:first-child {
+    margin-bottom: 20px;
 }
 
-.social {
+.about-content p:last-child {
+    margin-top: 20px;
+}
+
+.skills-container ul {
+    padding: 0;
+}
+
+.skills-container ul li {
+    background-color: #2c3e50;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+.skills-container ul li.hovered {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.skills-container h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #34495e;
+    padding: 50px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: linear-gradient(to right, #333333, #4d4d4d);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#git {
   background-color:white;
-  height :50px;
-  margin:10px;
-  border-radius: 20px;
-  text-align:center;
-  
 }
-img {
-  padding : 1.5vh;
-  margin-top:-1px;
-  text-shadow: 2px 2px 5px black;
-  padding-top:5px;
+
+#insta{
+  background-color: white;
+}
+
+#twt {
+  background-color:white;
 }
