@@ -103,8 +103,8 @@ about-content p:first-child {
 .contact-item {
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
 
@@ -128,13 +128,13 @@ footer {
 }
 
 #git {
-  background-color:white;
+  background-color:#4078c0 ;
 }
 
 #insta{
-  background-color: white;
+  background-color: #ff38ac;
 }
 
 #twt {
-  background-color:white;
+  background-color:#1da1f2;
 }
