@@ -1,140 +1,159 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #4e89ae, #43658b);
-    color: #ffffff;
-}
-
-
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+    color: whitesmoke;
+  background-color: black;
 }
 
 header {
-    background: linear-gradient(to right, #333333, #4d4d4d);
-    color: #ffffff;
-    padding: 10px 0;
+  background-image: url('back.png');
+  background-size: cover;
+  /* Ensure the background image covers the entire header */
+  background-position: center;
+  /* Center the background image */
+  color: #ffffff;
+  padding: 10px 0;
+text-align: center;
 }
 
-header h1 {
+
+
+
+
+h1 {
+    font-size: 2em;
     margin: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+p {
+    font-size: 1em;
+    margin: 5px 0;
 }
 
-nav ul li {
-    display: inline;
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #ffffff;
+nav a {
     text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+main {
+    padding: 20px;
 }
 
 section {
-    padding: 50px 0;
-    background-color: #2c3e50;
-}
-
-section h2 {
-    margin-top: 0;
-    color: #ffffff;
-}
-
-.about-content {
-    text-align: center;
-}
-
-.about-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: white;
-}
-
-about-content p:first-child {
     margin-bottom: 20px;
 }
 
-.about-content p:last-child {
-    margin-top: 20px;
-}
-
-.skills-container ul {
-    padding: 0;
-}
-
-.skills-container ul li {
-    background-color: #2c3e50;
-    padding: 20px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #ffffff;
-}
-
-.skills-container ul li.hovered {
-    background-color: #ffffff;
-    color: #000000;
-    transition: background-color 0.3s ease;
-}
-
-.skills-container h3 {
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-.contact-container {
+.projects {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    background-color: #34495e;
-    padding: 50px 0;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding-left: 5px; 
+  /* justify-content: space-between; */
 }
 
-.contact-item {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
-    border-radius: 10px;
-}
-
-.contact-item a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.contact-item img {
-    width: 80px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-footer {
-    background: linear-gradient(to right, #333333, #4d4d4d);
-    color: #ffffff;
+.project-card {
+    width: calc(33% - 20px);
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* padding: 20px; */
     text-align: center;
-    padding: 10px 0;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
 }
 
-#git {
-  background-color:#4078c0 ;
+.project-card:hover {
+    transform: scale(1.02);
 }
 
-#insta{
-  background-color: #ff38ac;
+.project-card img {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-#twt {
-  background-color:#1da1f2;
+.project-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  color: black;
+}
+
+.project-card p {
+    font-size: 1em;
+    margin-top: 0;
+  color: gray;
+}
+
+.project-card a {
+    text-decoration: none;
+}
+
+#social {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Adjust border radius for a softer look */
+  border: none;/* Remove border if desired */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+text-decoration: none;
+  padding-top: 10px;
+}
+
+#social:hover {
+  background-color: #333; /* Darken the background color on hover */
+  color: whitesmoke;
+}
+
+.socialclass{
+  padding: 20px;
+}
+
+.sblock{
+  background-color:gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.saffron
+{
+  color: orange;
+}
+
+.white
+{
+  color: white;
+}
+
+.green
+{
+  color: green;
+}
+
+.cap{
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+.websec
+{
+  padding-top: 20px;
 }
