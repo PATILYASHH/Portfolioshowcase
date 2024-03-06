@@ -1,0 +1,10 @@
+#loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px; /* Height of the loading bar */
+  background: linear-gradient(to right, red,blue, yellow, green); /* Loading bar color */
+  z-index: 9999;
+  transition: width 0.3s ease;
+}
