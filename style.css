@@ -6,16 +6,32 @@ body {
   background-color: black;
 }
 
+@keyframes changeBackground {
+  0% {
+    background-image: url('back.png');
+  }
+  33.33% {
+    background-image: url('back1.png');
+  }
+  66.67% {
+    background-image: url('back2.png');
+  }
+  100% {
+    background-image: url('back.png');
+  }
+}
+
 header {
   background-image: url('back.png');
   background-size: cover;
-  /* Ensure the background image covers the entire header */
   background-position: center;
-  /* Center the background image */
   color: #ffffff;
   padding: 10px 0;
-text-align: center;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  animation: changeBackground 90s infinite; /* Change every 30 seconds */
+
+  
 }
 
 
@@ -82,6 +98,7 @@ section {
 
 .project-card:hover {
     transform: scale(1.02);
+border: solid;
 }
 
 .project-card img {
@@ -110,16 +127,22 @@ section {
   background-color: black;
   text-align: center;
   padding: 10px 20px; /* Adjust padding as needed */
-  border-radius: 5px; /* Adjust border radius for a softer look */
-  border: none;/* Remove border if desired */
+  border-radius: 15px; /* Adjust border radius for a softer look */
+  border: solid black; /* Remove border */;
   cursor: pointer; /* Change cursor to pointer for better UX */
 text-decoration: none;
   padding-top: 10px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); */
+  
+
 }
 
 #social:hover {
-  background-color: #333; /* Darken the background color on hover */
+  background-color: #333; 
   color: whitesmoke;
+  border-radius: 0px;
+  border: solid yellow; /* Remove border */;
+
 }
 
 .socialclass{
@@ -169,6 +192,7 @@ font-size: 16px;
 {
   font-family: Arial, Helvetica, sans-serif;
 display: flex;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .buttonn
@@ -179,3 +203,8 @@ display: flex;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.chalenge1
+{
+  text-decoration: none;
+color: white;
+}
